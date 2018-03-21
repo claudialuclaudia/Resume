@@ -21,9 +21,22 @@ body {
     top: 400px;
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 h3 {
     color: #f44277;
     font-size:18px;
+}
+
+h4 {
+    color: #227222;
+    font-style:bold;
+    font-size:16px;
 }
 
 a {

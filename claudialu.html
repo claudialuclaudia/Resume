@@ -52,6 +52,15 @@ amc3.src="amc/3.png"
 var amc4=new Image()
 amc4.src="amc/4.png"
 
+var net1=new Image()
+net1.src="NetLogo/1.png"
+var net2=new Image()
+net2.src="NetLogo/2.png"
+var net3=new Image()
+net3.src="NetLogo/3.png"
+var net4=new Image()
+net4.src="NetLogo/4.png"
+
 //-->
 </script>
 
@@ -77,7 +86,7 @@ amc4.src="amc/4.png"
     <h2><a href="mailto:claudialuclaudia@gmail.com" target="_blank">claudialuclaudia@gmail.com</a></h2>
     <p>Java - JavaScript - Python - C - UNIX - HTML5/CSS </p>
     <p>Git - MongoDB - Express - AngularJS - NodeJS - Django </p>
-    <p>Android - Stripe - Firebase - Heroku </p>
+    <p>Android - Stripe - Firebase - Heroku - NetLogo </p>
   </div>
 
   <div id = "education">
@@ -152,6 +161,31 @@ amc4.src="amc/4.png"
   setTimeout("b3slideit()",2500)
   }
   b3slideit()
+  //-->
+  </script>
+  <br>
+
+  <h4>Asteroids Game in NetLogo</h4>
+  <p>1-person project, Mar. 2017</p>
+  <p>An asteroids game where the user controls a hero ship, which has momentum, and fires at randomly-generated floating rocks and enemy ships to gain points and level up.</p>
+  <ul>
+    <li>Implemented the game using NetLogo, an agent-based programming language and integrated modeling environment</li>
+    <li>Used NetLogo agents' ability to recognize their places (locations) in the world as well as in relation to other agents in the world--because the agents are aware of the positions of the other objects as well as the distance in between them, the objects are able to tell whether it has collided into another object (in this game, usually resulting in the death of one of these objects)</li>
+  </ul>
+
+  <img src="NetLogo/1.png" name="netslide" width="80%" class="center">
+  <script type="text/javascript">
+  <!--
+  var netstep=1
+  function netslideit(){
+  document.images.netslide.src=eval("net"+netstep+".src")
+  if(netstep<4)
+  netstep++
+  else
+  netstep=1
+  setTimeout("netslideit()",2500)
+  }
+  netslideit()
   //-->
   </script>
   <br>
