@@ -2,6 +2,7 @@
 <html>
 <link href="style.css" type="text/css" rel="stylesheet">
 <head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Gothic+A1">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
   <script type="text/javascript">
 <!-->
@@ -93,11 +94,9 @@ net4.src="NetLogo/4.png"
     <br><br><br>
   <h3>EDUCATION</h3>
   <h4>Bachelor of Arts Candidate in Computer Science</h4>
-  <p>Middlebury College, Middlebury VT (2015-2019)</br>
-  GPA: 3.6/4.0</p>
-
+  Middlebury College, Middlebury VT (2015-2019) | GPA: 3.6/4.0
   <h4>Visiting Student</h4>
-  <p>Columbia University, New York NY (2016-2017)</p>
+  Columbia University, New York NY (2016-2017)
 
   <h4>Related Coursework:</h4>
   <p>Theory of Computation, Computer Architecture, Algorithms and Complexity, Advanced Programming in C and UNIX, Spatial Agent-Based Modeling, Discrete Mathematics, Data Structures, Intro to C++, Linux, Python</p>
@@ -109,11 +108,13 @@ net4.src="NetLogo/4.png"
 
   <h4>Borrow Android App</h4>
   <p>2-person project, Dec.2017--Present</p>
-  <p>A P2P platform that allows users to borrow money from close friends through private requests (think Venmo) as well as from more distant acquaintances--a "facebook friend," for example, through public requests (think Kickstarter and GoFundMe).</p>
+  <p>A P2P Android platform that allows friends to borrow and lend money from and to each other with ease. When a user needs to borrow money, he posts a borrow request that includes his borrow reason, his borrow amount, a promised repayment date, the installment option he'd like to use, and any interest rate he'd like to offer. His friends can choose to lend to him based on these terms. Borrow then sends him periodic reminding notifications throughout his borrowing period, but if he continues to not pay back his debt, at the midnight of his promised repayment date, Borrow automatically withdrawals his debt from his bank account.</p>
   <ul>
-    <li>Used Firebase authorization to handle user registration and login and Firebase database as storage for user information</li>
-    <li>Built a NodeJS backend (hosted on Heroku) and MongoDB database (hosted on mLab) to store users' borrowing and lending history </li>
-    <li>Implemented Stripe Connect API to allow direct in-app money transactions</li>
+    <li>Built a NodeJS backend that makes calls to Stripe to withdrawal from and payout to the users' bank accounts</li>
+    <li>Used Firebase to handle user registration, login, and user information storage </li>
+    <li>Stored all the borrow requests in a neDB database</li>
+    <li>Registered for a Stripe platform, which stores the users' credit or debit card information in a PCI compliant server</li>
+    <li>Middlebury College MiddChallenge Summer 2018 $1,500 Grant Winner in Business & Technology</li>
   </ul>
   <img src="borrow/0.png" name="bslide" width="32%">
   <script type="text/javascript">
@@ -192,10 +193,11 @@ net4.src="NetLogo/4.png"
 
   <h4>Middlebury College Carpool Web App</h4>
   <p>4-person project, Sep.2017--Dec.2017</p>
-  <p>A ride sharing platform that allows students at Middlebury College to car-pool together for a common destination as well as pay the driver.</p>
+  <p>A ride sharing platform that allows students at Middlebury College to car-pool together for a common destination.</p>
   <ul>
-    <li>Built the platform using Django and allowed for money transaction using Stripe Connect API</li>
-    <li>Released for a small test group in December 2017</li>
+    <li>Built a Django frontend that allows Middlebury College students to search for and post rides</li>
+    <li>Built a Django backend that makes calls to Stripe so riders can pay drivers</li>
+    <li>Released to a small test group in December 2017</li>
   </ul>
   <img src="middpool/middpoolp1.png" name="slide" width="100%">
   <script type="text/javascript">
@@ -227,12 +229,11 @@ net4.src="NetLogo/4.png"
         <br><br><br>
     <h3>INTERNSHIPS</h3>
     <h4>AMC EDUCATION Web Application Programmer</h4>
-    <p>Morristown, NJ, Jul.2017--Aug.2017</p>
+    <p>Morristown, NJ, Jun.2017--Aug.2017</p>
     <p>An education agency that prepares high school students for Mathematical Association of America's AMC and AIME contests.</p>
     <ul>
-      <li>Proposed and spearheaded the development of an AMC Online Placement Testing Application using NodeJS, to improve student placement into the appropriate level classes. </li>
-      <li>Enabled operation of application using Passport authentication middleware against mLab MongoDBs.</li>
-      <li>Created and continuously updated agency's websites using JavaScript and HTML5/CSS to establish agency's online presence. </li>
+      <li>Improved student placement into the appropriate-leveled classes by proposing and spearheading development of an AMC Online Placement Testing Application using AngularJS and NodeJS (utilized Passport authentication middleware to authenticate users and a MongoDB database to store the quiz answers)</li>
+      <li>Established agency's online presence by continuously updating agency’s websites using HTML5/CSS and Javascript</li>
     </ul>
 
 <!--     <img src="amc/1.png" name="aslide" width="100%">
@@ -249,7 +250,7 @@ net4.src="NetLogo/4.png"
     }
     aslideit()
     //-->
-    </script> -->
+    </script>
 
   </div>
 

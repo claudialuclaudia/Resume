@@ -1,8 +1,8 @@
 body {
     color: #404040;
     background-color: #fff;
-    font: 14px 'Roboto Mono', monospace;
-    margin: 0px; padding: 0px 300px;
+    font: 14px 'Gothic A1', monospace;
+    margin: 0px; padding: 0px 20%;
     letter-spacing: 0.3px;
 }
 
@@ -74,7 +74,7 @@ a:hover {
     width: 80%;
     margin-top:1%;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Gothic A1', monospace;
     text-transform:uppercase;
 }
  
